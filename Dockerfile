@@ -18,6 +18,7 @@ COPY app.py .
 
 # add features 1
 
+# add tinh nang abc
 # Bước 6: Khai báo lệnh sẽ chạy khi cái Container được bật lên (Khởi động Container)
 CMD ["python", "app.py"]
 
