@@ -81,6 +81,8 @@ def fetch_data():
 
         if vnd_rate:
             print(f"-> THÀNH CÔNG: Tỷ giá USD/VND là {vnd_rate}")
+            print(f"-> THÀNH CÔNG: Tỷ giá USD/VND là {vnd_rate}")
+            print(f"-> THÀNH CÔNG: Tỷ giá USD/VND là {vnd_rate}")
         else:
             print("-> LỖI DỮ LIỆU: Không tìm thấy tỷ giá hợp lệ.")
     except Exception as e:
