@@ -16,6 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Bước 5: Copy toàn bộ code (app.py) vào trong Container
 COPY app.py .
 
+# add tinh nang abc
 # Bước 6: Khai báo lệnh sẽ chạy khi cái Container được bật lên (Khởi động Container)
 CMD ["python", "app.py"]
 
