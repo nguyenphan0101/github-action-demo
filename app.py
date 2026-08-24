@@ -57,7 +57,7 @@
 import requests
 import datetime
 
-
+# test another commit
 # --- HÀM 1: CHUYÊN XỬ LÝ LOGIC (Để Unit Test) ---
 def extract_vnd_rate(json_data):
     """Bóc tách tỷ giá VND từ JSON. Trả về None nếu dữ liệu lỗi."""
