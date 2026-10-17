@@ -22,3 +22,6 @@ def test_extract_negative_rate():
     # Giả lập API bị lỗi trả về số âm
     mock_data = {"rates": {"VND": -500}}
     assert extract_vnd_rate(mock_data) is None
+
+
+#test
